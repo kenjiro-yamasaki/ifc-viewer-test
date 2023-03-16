@@ -16,7 +16,7 @@ export class Viewer
     {
         const container = document.getElementById('viewer') as HTMLElement;
         this.viewer = new IfcViewerAPI({ container, backgroundColor: new Color(255, 255, 255) });
-        this.viewer.IFC.setWasmPath('./web-ifc-wasm/');
+        this.viewer.IFC.setWasmPath('./node_modules/web-ifc/');
 
         this.viewer.IFC.loader.ifcManager.applyWebIfcConfig({
             USE_FAST_BOOLS: false,

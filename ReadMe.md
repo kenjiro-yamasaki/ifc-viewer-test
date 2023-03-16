@@ -1,5 +1,4 @@
-# How to build
+# HOW TO BUILD
 1. `npm install`
-2. copy "./node_mosules/web-ifc/web-ifc.wasm" & "node_mosules/web-ifc/web-ifc-mt.wasm" to "./web-ifc-wasm/".
-3. `npm run build`
-4. Open "./index.html" with LiveServer.
+2. `npm run build`
+3. Open "index.html" with VSCode's LiveServer, etc.
